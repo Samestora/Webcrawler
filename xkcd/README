@@ -1,0 +1,6 @@
+# Steps
+
+	1. Scrapper asks for the desired comic (number)
+	2. Scrapper will returns a URL for the comic
+	3. Downloader asks for the URL (done automatically)
+	4. Downloader will download the image in 'C://Downloads//'
