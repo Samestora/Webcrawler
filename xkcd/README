@@ -1,8 +1,4 @@
-# Steps
+# An image downloader based on the "xkcd.com"
 
-	1. Scrapper asks for the desired comic (number)
-	2. Scrapper will returns a URL for the comic
-	3. Downloader asks for the URL (done automatically)
-	4. Downloader will download the image in 'C://Downloads//'
-
-# So you only need to run Downloader.py
+You only need to type in the comic number and the filename for the downloaded image
+The image will be downloaded inside the directory "C://Downloads/"
