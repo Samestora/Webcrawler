@@ -2,7 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 
 # To Scrape
-def Scrape():
+def Get():
 	user = str(input('Type the desired page number : '))
 	url = 'https://xkcd.com/' + user + '/'
 	user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
@@ -11,8 +11,8 @@ def Scrape():
 	#Request the URL and open it
 	requesting = urllib.request.Request(url, None ,header)
 
-	with urllib.request.urlopen(requesting) as resp:
-		read = resp.read()
+	with urllib.request.urlopen(requesting) as response:
+		read = response.read()
 
 	# Parse the HTML
 	soup_read = BeautifulSoup(read, 'html.parser')
