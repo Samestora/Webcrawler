@@ -29,4 +29,4 @@ def IMG_Download(url, filepath):
 	urllib.request.urlretrieve(url, filepath)
 
 # Execution
-IMG_Download(Get(), 'Downloads/' + str(input('filename? : ')) + '.jpg')
+IMG_Download(Get(), 'Downloads/' + str(input('Filename? : ')) + '.jpg')
